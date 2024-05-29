@@ -38,6 +38,7 @@
         android:id="@+id/firstLine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         app:layout_constraintBottom_toTopOf="@id/secondLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -95,6 +96,7 @@
         android:id="@+id/secondLine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         app:layout_constraintBottom_toTopOf="@id/thirdLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -152,6 +154,7 @@
         android:id="@+id/thirdLine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         app:layout_constraintBottom_toTopOf="@id/fourthLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -209,10 +212,10 @@
         android:id="@+id/fourthLine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         app:layout_constraintBottom_toTopOf="@id/fifthLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         >
 
         <Button
@@ -268,6 +271,7 @@
         android:id="@+id/fifthLine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
